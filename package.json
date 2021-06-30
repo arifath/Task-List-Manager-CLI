@@ -1,0 +1,21 @@
+{
+  "name": "test-efishery-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-table": "^0.3.6",
+    "commander": "^8.0.0",
+    "esm": "^3.2.25",
+    "moment": "^2.29.1",
+    "pouchy-store": "^0.1.7"
+  },
+  "preferGlobal": true,
+  "bin": "./index.js"
+}
