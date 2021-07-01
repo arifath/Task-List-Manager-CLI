@@ -10,10 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "buffer": "^6.0.3",
     "cli-table": "^0.3.6",
     "commander": "^8.0.0",
     "esm": "^3.2.25",
     "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
     "pouchy-store": "^0.1.7"
   },
   "preferGlobal": true,
