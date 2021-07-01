@@ -1,9 +1,9 @@
-import PouchyStore from 'pouchy-store';
+import PouchyStore from '../modules/PouchyStore';
 import config from '../config';
 
 class TodosStore extends PouchyStore {
   get name() {
-    return 'ariffathurrohmann';
+    return 'todos_ariffathurrohmann';
   }
 
   get urlRemote() {
