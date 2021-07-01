@@ -47,6 +47,7 @@ program
       text,
       tag,
       createdAt: new Date(),
+			is_complete: false,
     }, userData);
 		console.log('data sudah ditambahkan..')
 	})
